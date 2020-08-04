@@ -28,7 +28,7 @@ pipeline {
 	
 		stage('Deployment') {
 			steps {
-				sh 'docker build -t demouser/demo-img -f- Dockerfile .'
+				sh 'docker build -t demouser/demo-img -f Dockerfile .'
 				sh 'docker rm -f ${docker ps -q}'
                                 sh './create-env.sh 10'
 	    	}
