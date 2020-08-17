@@ -11,4 +11,4 @@ do
     echo "www.helloworld$i container has been created!"
 	echo "=============================="
 done
-docker inspect --format {{.NetworkSettings.Networks.bridge.IPAddress}} `docker ps -q` > IPs.txt
+#docker inspect --format {{.NetworkSettings.Networks.bridge.IPAddress}} `docker ps -q` > IPs.txt
