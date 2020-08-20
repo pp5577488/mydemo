@@ -12,7 +12,7 @@ pipeline {
                NEXUS_PROTOCOL = "http"
                NEXUS_URL = "127.0.1.1:8081"
                NEXUS_REPOSITORY = "SAMPLE_SNP"
-               NEXUS_CREDENTIAL_ID = "nexus_credentials"
+              // NEXUS_CREDENTIAL_ID = "nexus_credentials"
                
                 
         }
