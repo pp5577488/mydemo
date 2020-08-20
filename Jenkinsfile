@@ -50,7 +50,7 @@ pipeline {
                        groupId: pom.groupId,
                        version: '${BUILD_NUMBER}',
                        repository: NEXUS_REPOSITORY,
-                       credentialsId: NEXUS_CREDENTIAL_ID,
+                       //credentialsId: NEXUS_CREDENTIAL_ID,
                        artifacts: [
 
                        [artifactId: pom.artifactId,
